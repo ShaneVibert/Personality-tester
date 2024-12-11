@@ -12,5 +12,9 @@ def calculate_results(answers):
         score["Introvert"] += 1
     else:
         score["Extrovert"] += 1
+    if answers[2] == "yes":
+        score["Introvert"] += 1
+    else:
+        score["Extrovert"] += 1
 
     return score
