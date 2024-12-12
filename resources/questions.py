@@ -41,8 +41,13 @@ def load_questions():
             "answers": ["C", "Go", "C++", "Python"]
         },
         {
-            "question": "1",
-            "answers": ["1", "2"]
+            "question": "what was the hardest thing to code here",
+            "answers": ["scrolling", "buttons", "tkinter itself"]
+        },
+        {
+            "question": "what is the best study ever",
+            "answers": ["CS(computer science", "social studies", "fine arts"]
         }
+
     ]
     return questions
